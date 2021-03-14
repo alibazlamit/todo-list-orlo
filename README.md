@@ -42,6 +42,14 @@ Edit the credentials in the local.ini file
     pass = ''
     name = ''
 
+### Create database with mysql
+
+```
+    $ mysql -u root -p
+    mysql> CREATE DATABASE todo;
+    Query OK, 1 row affected (0.00 sec)
+```
+
 ### Create schema
 
     $ /path/to/slim-rest-api/vendor/bin/doctrine orm:schema-tool:create
