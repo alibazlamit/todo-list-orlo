@@ -1,4 +1,4 @@
-# Slim REST API
+# Simple PHP based API for todo list
 
 ---
 
