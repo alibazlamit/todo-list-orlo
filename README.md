@@ -44,6 +44,8 @@ Edit the credentials in the local.ini file
 
 ### Create database with mysql
 
+Follow this guide to install mysql  [Mysql](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
+
 ```
     $ mysql -u root -p
     mysql> CREATE DATABASE todo;
