@@ -28,6 +28,16 @@ To install it globaly
     $ composer update
     $ composer install
 
+### Create database with mysql
+
+Follow this guide to install mysql  [Mysql](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
+
+```
+    $ mysql -u root -p
+    mysql> CREATE DATABASE todo;
+    Query OK, 1 row affected (0.00 sec)
+```
+
 ### Database credentials
 
     $ cp /path/to/slim-rest-api/config/local.ini.dist /path/to/slim-rest-api/config/local.ini
@@ -41,16 +51,6 @@ Edit the credentials in the local.ini file
     user = ''
     pass = ''
     name = ''
-
-### Create database with mysql
-
-Follow this guide to install mysql  [Mysql](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/)
-
-```
-    $ mysql -u root -p
-    mysql> CREATE DATABASE todo;
-    Query OK, 1 row affected (0.00 sec)
-```
 
 ### Create schema
 
