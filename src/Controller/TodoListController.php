@@ -106,7 +106,6 @@ class TodoListController  extends Controller
     {
         $route = $request->getAttribute('route');
         $id = $route->getArgument('id');
-        $this->getListService()->deleteList($id);
         try {
             $this->getListService()->deleteList($id);
         } catch (Exception $e) {
